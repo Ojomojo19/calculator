@@ -1,0 +1,16 @@
+@media screen and (max-width:768px){
+    .calculator{
+        width: 100%;
+        margin: 0%;
+        height: 100%;
+        left: 0%;
+        position: relative;
+        border-radius: 0px;
+        padding: 0px;
+        border: 0px;
+    }
+    .calc-Buttons button{
+        width: 20%;
+        height: 65px;
+    }
+}

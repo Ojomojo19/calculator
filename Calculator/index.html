@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+</head>
+<body>
+    <div class="calculator">
+        <span class="calculator-logo">Mojo's Calculator <sup>TM</sup></span>
+        <div class="LCD">
+            <input type="text" class="lcdIn" id="calcInput" disabled>
+        </div>
+        <div class="calc-Buttons">
+            <!-- <button class="disabled-btn"c disabled></button> -->
+            <button onclick="cout()" class="green-btns">Ans</button>
+            <button onclick="clearIn()" class="green-btns">AC</button>
+            <button onclick="deleteSome()" class="clear-btn">Del</button>
+            <button onclick="cout('+')" class="operators">&plus;</button>
+            <button onclick="cout(7)" >7</button>
+            <button onclick="cout(8)" >8</button>
+            <button onclick="cout(9)" >9</button>
+            <button onclick="cout('-')" class="operators">&minus;</button>
+            <button onclick="cout(4)" >4</button>
+            <button onclick="cout(5)" >5</button>
+            <button onclick="cout(6)" >6</button>
+            <button onclick="cout('*')" class="operators">&times;</button>
+            <button onclick="cout(1)" >1</button>
+            <button onclick="cout(2)" >2</button>
+            <button onclick="cout(3)" >3</button>
+            <button onclick="cout('/')" class="operators">&divide;</button>
+            <button onclick="cout('.')" >.</button>
+            <button onclick="cout(0)" >0</button>
+            <button onclick="calculate()" class="equals">&equals;</button>
+        </div>
+    </div>
+</body> 
+<script src="./js/main.js"></script> 
+<script src="./js/classes.js"></script>
+</html>
